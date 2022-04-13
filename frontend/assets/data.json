@@ -1,0 +1,57 @@
+[{
+    "name": "Margherita",
+    "order": 0,
+    "ingredients": "paradicsomszósz, paradicsom, sajt, ami épp akciós a boltban",
+    "vegetarian" : false,
+    "price" : 2190,
+    "picture" : "../assets/img/margharita.png"
+},
+{
+    "name": "Quattro Formaggi",
+    "order": 0,
+    "ingredients": "paradicsomszósz, 4 féle sajt, paradicsom",
+    "vegetarian" : true,
+    "price" : 2290,
+    "picture" : "../assets/img/4cheese.png"
+},
+{
+    "name": "Pepperoni",
+    "order": 0,
+    "ingredients": "paradicsomszósz, paradicsom, sajt, pepperoni",
+    "vegetarian" : false,
+    "price" : 2190,
+    "picture" : "../assets/img/pepperoni.png"
+},            
+{
+    "name": "Négy évszak",
+    "order": 0,
+    "ingredients": "paradicsomszósz, olivabogyó, ragu, paprika, pepperoni",
+    "vegetarian" : true,
+    "price" : 2290,
+    "picture" : "../assets/img/4season.png"
+},
+{
+    "name": "Ceasar",
+    "order": 0,
+    "ingredients": "paradicsomszósz, 4 féle sajt, paradicsom, rukkola",
+    "vegetarian" : true,
+    "price" : 2290,
+    "picture" : "../assets/img/ceasar.png"
+},
+{
+    "name": "Magyaros",
+    "order": 0,
+    "ingredients": "csípős paradicsomszósz, paradicsom, paprika, csirke",
+    "vegetarian" : false,
+    "price" : 2190,
+    "picture" : "../assets/img/hungarian.png"
+},            
+{
+    "name": "Ragus",
+    "order": 0,
+    "ingredients": "paradicsomszósz, paradicsom, sajt, ragu",
+    "vegetarian" : true,
+    "price" : 2290,
+    "picture" : "../assets/img/ragous.png"
+}
+]

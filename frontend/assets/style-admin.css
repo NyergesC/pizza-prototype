@@ -1,0 +1,368 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+    background: transparent;
+    font-family: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+a img {
+    border: none;
+}
+
+button,
+a {
+    cursor: pointer;
+    color: inherit;
+}
+
+textarea {
+    resize: none;
+}
+
+button,
+textarea,
+select {
+    appearance: none !important;
+    border-radius: 0;
+}
+/* CSS RESET ENDS */
+
+
+body {
+    position: relative;
+    width: 100vw;
+    height: 100%; 
+    margin: 0 auto;
+    font-family: 'Source Serif 4', sans-serif;
+
+    background: rgb(194, 200, 200) 100%;
+    /* overflow: hidden; */
+}
+
+.order-header{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: #F1C40F;
+    
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.order-header img{
+    position: absolute;
+    right: 3%;
+    bottom: 35%;
+    width: 20px;
+    height: 20px;
+}
+
+.order-header h3{
+    position: absolute;
+    right: 5%;
+    bottom: 35%;
+}
+
+.orderlist{
+    width: calc(100%-100px);
+    font-size: 16px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 20px;
+    /* border: 2px solid #ababab;
+    border-radius: 5px; */
+    background: white; /* Pastel white: #FAF8F6 */
+    gap: 20px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    /* box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px; */  
+}
+
+.order-title{
+    width: calc(100%-100px);
+    height: 60px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 20px;
+    /* border: 2px solid #ababab;
+    border-radius: 5px; */
+    background: white; /* Pastel white: #FAF8F6 */
+    gap: 20px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    /* box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px; */  
+}
+ .orderlist li{
+    display: inline-block; 
+    max-width: 300px;
+    width: 150px;
+    word-wrap: break-word;
+} 
+
+.order-title li{
+    display: inline-block;
+    max-width: 300px;
+    width: 150px;
+    font-weight: 600;
+} 
+
+#checkbox2 {
+    visibility: hidden;
+    border: none;
+}
+
+.statuspic {
+    height: 50px;
+    width: 50px;
+    border: none;
+}
+
+/* SEARCH BAR */
+
+/* .wrapper{
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.center{
+    width: 100%;
+    margin: 0 auto;
+} 
+
+#search-container{
+    margin: 10px 0;
+   
+}
+
+#search-container input{
+    background-color: transparent;
+    width: 40%;
+    border-bottom: 2px solid #110f29;
+    padding: 1em 0.3em;
+}
+
+#search-container input:focus{
+    border-bottom-color: #110f29;
+}
+
+#search-container button{
+    padding: 1em 1em;
+    margin-left: 1em;
+    background-color: #110f29;
+    color: white;
+    border-radius: 5px;
+    margin-top: 0.5em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.buttons button:nth-child(1){
+    background-color: #110f29;
+    color: white;
+}
+
+.buttons button{
+    border: 2px solid #110f29;
+    padding: 1em 2.2em;
+    border-radius: 3em;
+    background-color: transparent;
+    color: #110f29;
+}
+
+.visible{
+    visibility:visible !important
+} */
+
+/* //SEARCH TEST 2 */
+
+.wrapper {
+    width: calc(100%-100px);
+    height: 350px;
+    margin: 0 auto;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px;
+    background: white; 
+    gap: 20px;
+    padding: 20px; 
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+ 
+
+
+
+}
+.box1 {
+    width: 100%;
+    height: 50px;
+    position: relative;
+}
+
+.box1::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background-color: rgb(199, 191, 191);
+    left: 0;
+}
+
+
+
+.titles{
+    display: flex;
+    width: 120px;
+    height: 50px;
+    position: relative;
+    font-size: 23px;
+}
+.titles::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #F1C40F;
+    left: 0;
+}
+
+.box2 {
+    display: flex;
+    width: 100%;
+    height: 125px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.input-container{
+    display: flex;
+}
+
+
+.input-container input{
+    width: 200px;
+    height: 40px;
+    background-color: transparent;
+    padding: 1em 0.3em;
+    border: solid grey 1px;
+    border-radius: 20px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    margin-right: 100px;
+}
+
+.input-container select{
+    width: 200px;
+    height: 40px;
+    border: solid grey 1px;
+    border-radius: 20px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    margin-right: 100px;
+}
+
+.cicamica option{
+    margin-bottom: 20px;
+    color: grey;
+
+} 
+.cicamica{
+    padding: 1em 0.3em;
+    color: grey;
+
+} 
+
+.search-box{
+    width: 200px;
+    background-color: transparent;
+    position: relative;
+}
+#search-input{
+    background-color: transparent;
+    width: 200px;
+    padding: 1em 0.3em;
+}
+
+.input-img{
+    position: absolute;
+    right: 5px;
+    bottom: 4px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #F1C40F;
+    z-index: 3;
+}
+.input-img img{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: 6px;
+    right: 5px;
+}
+
+
+.box3{
+    width: 100%;  
+}
+.circles{
+    width: 100%;  
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.circleconti{
+    width: 200px;
+    margin-left:100px ;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.circleconti h4{
+    margin-right:80px;
+    margin-top: 10px;
+
+}
+
+.Green, .Yellow, .Red, .total {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.Green{
+    background-image: linear-gradient(to right, rgb(25, 190, 10) , rgb(7, 206, 74));
+}
+.Yellow{
+    background-image: linear-gradient(to right, rgb(213, 235, 16) , rgb(211, 190, 5));
+}
+.Red{
+    background-image: linear-gradient(to right, red , rgb(221, 104, 8))
+}
+.total{
+    background-image: linear-gradient(to right, rgb(31, 18, 212) , rgb(23, 154, 172))
+}
+

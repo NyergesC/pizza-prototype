@@ -1,0 +1,26 @@
+[
+    {
+
+        "pizza": [
+            { "pizzaName": "Margherita", "pizzaQty": "2", "pizzaPrice": 4380},
+            { "pizzaName": "Margherita", "pizzaQty": "2", "pizzaPrice": 4380},
+            { "pizzaName": "Margherita", "pizzaQty": "2", "pizzaPrice": 4380}
+        ],
+        "order": { 
+            "username": "Pisti",
+            "add": "asd",
+            "mail": "Pisti@"
+        }
+    },
+    {
+        "pizza": [
+            { "pizzaName": "Margherita", "pizzaQty": "1", "pizzaPrice": 4380},
+            { "pizzaName": "Margherita", "pizzaQty": "2", "pizzaPrice": 4380}
+        ],
+        "order": { 
+            "username": "Pisti",
+            "add": "asd",
+            "mail": "Pisti@"
+        }
+    }
+]
