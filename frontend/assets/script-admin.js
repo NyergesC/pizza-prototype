@@ -62,24 +62,6 @@ const searchComponentTest = () => {
         </div>
         `
 }
-/* const searchComponent = () => {
-    return `
-        <div class="wrapper"> 
-            <div class="center">
-                <div id="search-container">
-                    <input type="search" id="search-input" placeholder="Search User's name...">
-                    <button id="search">Search</button>
-                </div>
-                <div class="buttons">
-                    <button class="button-all">All</button>
-                    <button class="button-pending">Pending</button>
-                    <button class="button-progress">Progress</button>
-                    <button class="button-succes">Success</button>
-                </div>
-            </div>
-        </div>
-        `
-} */
 
 const orderTitle  = () => {
     return `

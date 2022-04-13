@@ -37,29 +37,30 @@ select {
 
 body {
     position: relative;
-    width: 100vw;
-    height: 100%; 
+    width: 100%;
+    height: 100vh; 
     margin: 0 auto;
-    font-family: 'Source Serif 4', sans-serif;
-
+    font-family: 'Poppins', sans-serif;
     background: rgb(194, 200, 200) 100%;
-    /* overflow: hidden; */
+    background: linear-gradient(305deg, rgb(77, 83, 83) 28%, transparent 68%), url('/assets/img/backround.jpg');
+   /* overflow: hidden; */
 }
+
 
 .order-header{
     position: relative;
     display: flex;
     width: 100%;
     height: 80px;
-    background-color: #F1C40F;
-    
+    background-color: rgba(60, 64, 67, 0.924);
+    color: white;    
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 
 .order-header img{
     position: absolute;
     right: 3%;
-    bottom: 35%;
+    bottom: 40%;
     width: 20px;
     height: 20px;
 }
@@ -73,19 +74,18 @@ body {
 .orderlist{
     width: calc(100%-100px);
     font-size: 16px;
-    height: 300px;
+    height: 200px;
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: center;
     border-radius: 10px;
     margin: 20px;
-    /* border: 2px solid #ababab;
-    border-radius: 5px; */
-    background: white; /* Pastel white: #FAF8F6 */
+    margin-right: 30px;
+    background: rgb(254, 255, 255);
+    opacity: 0.9;
     gap: 20px;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
-    /* box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px; */  
 }
 
 .order-title{
@@ -98,12 +98,11 @@ body {
     justify-content: center;
     border-radius: 10px;
     margin: 20px;
-    /* border: 2px solid #ababab;
-    border-radius: 5px; */
-    background: white; /* Pastel white: #FAF8F6 */
+    margin-right: 30px;
+    background: rgb(254, 255, 255);
+    opacity: 0.9; /* Pastel white: #FAF8F6 */
     gap: 20px;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
-    /* box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px; */  
 }
  .orderlist li{
     display: inline-block; 
@@ -130,68 +129,12 @@ body {
     border: none;
 }
 
-/* SEARCH BAR */
-
-/* .wrapper{
-    display: flex;
-    width: 95%;
-    margin: 0 auto;
-}
-
-.center{
-    width: 100%;
-    margin: 0 auto;
-} 
-
-#search-container{
-    margin: 10px 0;
-   
-}
-
-#search-container input{
-    background-color: transparent;
-    width: 40%;
-    border-bottom: 2px solid #110f29;
-    padding: 1em 0.3em;
-}
-
-#search-container input:focus{
-    border-bottom-color: #110f29;
-}
-
-#search-container button{
-    padding: 1em 1em;
-    margin-left: 1em;
-    background-color: #110f29;
-    color: white;
-    border-radius: 5px;
-    margin-top: 0.5em;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-}
-
-.buttons button:nth-child(1){
-    background-color: #110f29;
-    color: white;
-}
-
-.buttons button{
-    border: 2px solid #110f29;
-    padding: 1em 2.2em;
-    border-radius: 3em;
-    background-color: transparent;
-    color: #110f29;
-}
-
-.visible{
-    visibility:visible !important
-} */
 
 /* //SEARCH TEST 2 */
 
 .wrapper {
     width: calc(100%-100px);
-    height: 350px;
+    height: 370px;
     margin: 0 auto;
     display: block;
     align-items: center;
@@ -199,14 +142,13 @@ body {
     text-align: center;
     border-radius: 10px;
     margin: 20px;
-    background: white; 
+    background: rgb(254, 255, 255);
+    opacity: 0.9;
+    margin-right: 30px;
     gap: 20px;
     padding: 20px; 
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
  
-
-
-
 }
 .box1 {
     width: 100%;
@@ -319,7 +261,7 @@ body {
 
 
 .box3{
-    width: 100%;  
+    width: 100%;
 }
 .circles{
     width: 100%;  
